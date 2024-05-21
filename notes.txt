@@ -1,0 +1,64 @@
+All things:
+    RF 0.1550861282558674
+    NB 0.05204123909256091
+    SVM 0.33289823326804374
+    GB 0.12182701037848996
+    KNN3 0.22169286271110905
+    KNN5 0.21837241956077844
+    KNN7 0.2151883323813078
+Without Number removing:
+    RF 0.15221781457006434
+    NB 0.056406270824780794
+    SVM 0.33182065035361247
+Drop non latters:
+    RF 0.004674253549229092
+    NB 0.004674253549229092
+    SVM 0.004674253549229092
+With oversampling:
+    RF 0.22877963372003482
+    NB 0.23334289389313145
+    SVM 0.3550110828946274
+    KNN3 0.2623815896594727
+    KNN5 0.26079227791439114
+    KNN7 0.258312524291663
+
+
+SVC:
+    Penalty is l2
+    loss is squared_hinge
+    max_iter is 1000
+    dual is True # has no effect 
+    f1_score is 0.3781121030959882
+
+SVC with oversampling:
+    Penalty is l2
+    loss is hinge
+    max_iter is 1000
+    f1_score is 0.3547
+
+    Penalty is l2
+    loss is hinge
+    max_iter is 1500
+    f1_score is 0.3544
+
+    Penalty is l2
+    loss is hinge
+    max_iter is 2000
+    f1_score is 0.3544
+
+    Penalty is l2
+    loss is squared_hinge
+    max_iter is 1000
+    f1_score is 0.3844
+
+    Penalty is l2
+    loss is squared_hinge
+    max_iter is 1500
+    f1_score is 0.3876
+
+    Penalty is l2
+    loss is squared_hinge
+    max_iter is 2000
+    f1_score is 0.3876523772283552
+
+
